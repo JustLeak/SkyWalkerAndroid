@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp">
+
+        <TextView
+            android:id="@+id/textInf"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Mount Nemrut
+Nemrut or Nemrud (Turkish: Nemrut Dağı ; Armenian: Նեմրութ լեռ) is a 2,134-metre-high (7,001 ft) mountain in southeastern Turkey, notable for the summit where a number of large statues are erected around what is assumed to be a royal tomb from the 1st century BC.
+
+The name is a relatively modern one, dating back to the Middle Ages. In Armenian legend, Hayk defeated the Biblical king Nimrod (equated with Bel) and buried him in these mountains. The conquering Arabs gave many ancient ruins they encountered the name Nimrud, including the famous Assyrian capital.
+Ancient history:
+When the Seleucid Empire was defeated by the Romans in 190 BC at the Battle of Magnesia it began to fall apart and new kingdoms were established on its territory by local authorities. Commagene, one of the Seleucid successor states, occupied a land between the Taurus mountains and the Euphrates. The state of Commagene had a wide range of cultures which left its leader from 62 BC – 38 BC Antiochus I Theos to carry on a peculiar dynastic religious program, which included not only Armenian, Greek and Persian deities but Antiochus and his family as well. This religious program was very possibly an attempt by Antiochus to unify his multiethnic kingdom and secure his dynasty's authority.[2]
+
+Antiochus supported the cult as a propagator of happiness and salvation. Many of the ruins on Mount Nemrud are monuments of the imperial cult of Commagene. The most important area to the cult was the tomb of Antiochus I, which was decorated with colossal statues made of limestone. Although the imperial cult did not last long after Antiochus, several of his successors had their own tombs built on Mount Nemrud. For around half of the year, Mount Nemrud is covered in snow, the effect of which increases weathering, which has in part caused the statues to fall in ruin.
+"
+
+            android:textStyle="italic" />
+    </ScrollView>
+
+    <ImageSwitcher
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:animateLayoutChanges="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/px_mount_nemrut" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/px_mount_nemrut" />
+    </ImageSwitcher>
+
+
+</RelativeLayout>
